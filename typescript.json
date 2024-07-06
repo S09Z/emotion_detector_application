@@ -1,0 +1,14 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "*": [
+          ".yarn/__virtual__/*",
+          ".yarn/*",
+          "node_modules/*"
+        ]
+      }
+    }
+  }
+  
